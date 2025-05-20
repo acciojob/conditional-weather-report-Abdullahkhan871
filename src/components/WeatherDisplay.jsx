@@ -1,14 +1,14 @@
 import React from 'react'
 
-const WeatherDisplay = ({ temperature, conditions }) => {
+const WeatherDisplay = ({ Temperature, Conditions }) => {
     return (
         <div>
             <p>
-                <span style={{ color: temperature > 20 ? "red" : "blue" }}>
-                    {temperature}
+                <span style={{ color: Temperature > 20 ? "red" : "blue" }}>
+                    {Temperature}
                 </span>
             </p>
-            <p>{conditions}</p>
+            <p>{Conditions}</p>
         </div >
     )
 }

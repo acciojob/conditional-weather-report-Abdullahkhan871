@@ -4,12 +4,14 @@ import './../styles/App.css';
 import WeatherDisplay from "./WeatherDisplay";
 
 const App = () => {
-  const obj = { temperature: 25, conditions: "Sunny" }
+  const obj = {
+    Temperature: 25, Conditions: "Sunny"
+  }
   return (
     <div>
       <WeatherDisplay
-        temperature={obj.temperature}
-        conditions={obj.conditions}
+        temperature={obj.Temperature}
+        Conditions={obj.Conditions}
       />
     </div>
   )
